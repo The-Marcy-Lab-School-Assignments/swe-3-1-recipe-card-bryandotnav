@@ -28,6 +28,7 @@ body {
 
 h2 {
   border-bottom: #F5C396;
+  text-decoration-line: underline;
 }
 
 h1, h2, p, h3 {
@@ -51,8 +52,9 @@ section {
   text-align: left;
 }
 
-ul, ol {
+ul, ol, li {
   list-style: none;
+  text-decoration-line: none;
 }
 
 #fig {
