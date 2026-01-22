@@ -14,3 +14,65 @@ img {
 }
 
 /* Add your CSS below */
+
+body {
+  background-color: #99856F;
+  color: aliceblue;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+  max-width: 800px;
+  margin: auto;
+  margin-bottom: auto;
+  padding: 20px;
+}
+
+h2 {
+  border-bottom: #F5C396;
+  text-decoration-line: underline;
+}
+
+h1, h2, p, h3 {
+  color: #52483C;
+  font-size: 20px;
+  padding: 0.5rem;
+}
+
+a {
+  color: blanchedalmond;
+  text-decoration: none;
+  margin-right: 0.5rem;
+}
+
+a:hover {
+  background-color: black;
+}
+
+section {
+  background-color: #E5C8A7;
+  text-align: left;
+}
+
+ul, ol, li {
+  list-style: none;
+  text-decoration-line: none;
+}
+
+#fig {
+  font-style: italic;
+}
+
+img {
+  border: #4C230A;
+}
+
+#description {
+  border-left: #4C230A;
+}
+
+footer {
+  border-top: #F5C396;
+}
+
+section {
+  border-radius: 10px;
+}

@@ -8,13 +8,12 @@ What is the difference between the `<head>` and `<body>` sections of an HTML doc
 
 **Your Answer:**
 
-
 ## Question 2: Semantic HTML
 
 Why should we use semantic elements like `<header>`, `<main>`, and `<footer>` instead of using `<div>` tags for everything?
 
 **Your Answer:**
-
+These elemts are used to separate and allow for more organized code. You'll be able to specify what section of your code it is such as the `<header>`, or `<main>` section of the code rather than having everything surrounded with `<div>` tags.
 
 ## Question 3: CSS Selectors
 
@@ -29,6 +28,7 @@ Given the following HTML:
 ```
 
 Write THREE different CSS rules:
+
 1. One that makes ALL list items have a `yellow` background
 2. One that makes only the vegetables have `green` text color
 3. One that makes only the Mango `bold`
@@ -36,27 +36,33 @@ Write THREE different CSS rules:
 **Your Answer:**
 
 ```css
-
+li {
+  background-color: yellow;
+}
+.vegetable {
+  color: green;
+}
+#favorite {
+  font-weight: bold;
+}
 ```
-
 
 ## Question 4: The Box Model
 
 In your own words, explain the four parts of the CSS box model (content, padding, border, margin). What is the purpose of each part?
 
 **Your Answer:**
-
+The content is the content you see. The actual content. The padding is the spacing between the content and the border, the border is the border that surrounds the content and padding and the margin is the space around the rest of the other parts. Their purpose is to define the space between the content and surrounding objects.
 
 ## Question 5: Box-Sizing
 
 What problem does `box-sizing: border-box` solve? Why do we include it in a CSS reset at the top of our CSS files?
 
 **Your Answer:**
-
+`box-sizing: border-box` solves the problem of unpredictability. It allows you to keep your work at a predictable scale.
 
 ## Question 6: Display Property
 
 What is the difference between `display: block`, `display: inline`, and `display: inline-block`? Give an example of when you might use `inline-block`.
 
 **Your Answer:**
-
